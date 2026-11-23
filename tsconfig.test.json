@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "outDir": ".test-output",
+    "rootDir": "src"
+  },
+  "include": ["src/audio/**/*.ts", "src/visualizers/**/*.ts"]
+}

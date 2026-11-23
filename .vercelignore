@@ -1,0 +1,10 @@
+# Upload only the inputs required for the static Vite build.
+/*
+!/index.html
+!/package.json
+!/package-lock.json
+!/src/
+!/public/
+!/tsconfig.json
+!/vite.config.ts
+!/vercel.json
